@@ -1,0 +1,12 @@
+#23/2/14		#1000 hrs
+building LFS: lfs book 7.0	
+
+ create an ext3 file system:
+ 	mke2fs -jv /dev/<name_of_partition>
+ 	
+ check custom enhancements of host(should contain has_journal, ext_attr, resize_inode, dir_index, filetype, sparse_super, large_file or needs_recovery only):
+ 	debugfs -R feature /dev/<name_of_partition>
+ 	
+ 
+ 	
+ 	
