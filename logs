@@ -1,5 +1,5 @@
 #23/2/14		#1000 hrs
-building LFS: lfs book 7.0	
+building LFS: reading lfs book 7.0	
 
  create an ext3 file system:
  	mke2fs -jv /dev/<name_of_partition>
