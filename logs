@@ -1,4 +1,5 @@
 #23/2/14		#1000 hrs
+
 building LFS: reading lfs book 7.0	
 
  create an ext3 file system:
@@ -6,6 +7,18 @@ building LFS: reading lfs book 7.0
  	
  check custom enhancements of host(should contain has_journal, ext_attr, resize_inode, dir_index, filetype, sparse_super, large_file or needs_recovery only):
  	debugfs -R feature /dev/<name_of_partition>
+-------------------------------------------------------------------------------------------------- 	
+ 	
+#27/2/14		#2237 hrs
+
+Encountered the following problem(while updating):
+	Reading package lists... Error!
+	E: Encountered a section with no Package: header
+Cause unknown but I guess it was because of playing around with dpkg for reconfiguring mysql
+Solution:
+	sudo rm /var/lib/apt/lists/* -vf
+	sudo apt-get update
+reinstall lists
  	
  
  	
