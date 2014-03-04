@@ -19,6 +19,21 @@ Solution:
 	sudo rm /var/lib/apt/lists/* -vf
 	sudo apt-get update
 reinstall lists
+----------------------------------------------------------------------------------------------------
+
+#4/3/14			#0945 hrs
+
+Arch linux installation practice(Virtual os)
+	Network setting done:
+		ip addr add 192.168.1.2/24 dev enp2s0f0
+		ip route add default via ip_address
+		nano /etc/resolv.conf
+			nameserver <DNS IP>
+			nameserver <Alternative DNS IP>
+	Partion created
+	FileSystem made
+	Partition Mounted
+	Packages downloaded
  	
  
  	
