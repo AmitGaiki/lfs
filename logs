@@ -34,7 +34,23 @@ Arch linux installation practice(Virtual os)
 	FileSystem made
 	Partition Mounted
 	Packages downloaded
- 	
- 
- 	
+----------------------------------------------------------------------------------------------------
+
+#5/3/14			#1030 hrs
+
+Arch linux post installation steps
+	Modifying Mirrorlist and Installing Input Drivers
+		#pacman -Syu
+		
+		
+http://preferablylinux.blogspot.in/2012/01/arch-linux-core-post-installation.html
+good blog for post installation process for arch
+----------------------------------------------------------------------------------------------------
+
+#10/3/14		#1500 hrs
+
+Removed arch os and installed fedora 19 on virtualbox for working with lfs.
+Installation is easy process but when complete another vm must be created with different name but same disk drive as that of previous vm.
+http://www.zealfortechnology.com/2013/07/install-fedora-19-virtualbox-guest-additions.html
+good blog for installation process including installing guest editions.
  	
