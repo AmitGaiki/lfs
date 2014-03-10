@@ -52,5 +52,5 @@ good blog for post installation process for arch
 Removed arch os and installed fedora 19 on virtualbox for working with lfs.
 Installation is easy process but when complete another vm must be created with different name but same disk drive as that of previous vm.
 http://www.zealfortechnology.com/2013/07/install-fedora-19-virtualbox-guest-additions.html
-good blog for installation process including installing guest editions.
+good blog for installation process including installing guest additions.
  	
