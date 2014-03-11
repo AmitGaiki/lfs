@@ -53,4 +53,12 @@ Removed arch os and installed fedora 19 on virtualbox for working with lfs.
 Installation is easy process but when complete another vm must be created with different name but same disk drive as that of previous vm.
 http://www.zealfortechnology.com/2013/07/install-fedora-19-virtualbox-guest-additions.html
 good blog for installation process including installing guest additions.
+----------------------------------------------------------------------------------------------------
+
+#11/3/14		#2200 hrs
+
+Downloading lfs packages.
+Trying to write a java code for downloading all packages but uniterative names of links causing problems.
+Substring method of String lib in java might be helpful.Still working on it.
+----------------------------------------------------------------------------------------------------
  	
