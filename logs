@@ -73,6 +73,22 @@ Dowloaded packaages manually.Code not working properly.I will continue on making
 
 Creating partition on fedora using gdisk partition tool.
 	http://www.rodsbooks.com/gdisk/walkthrough.html
+----------------------------------------------------------------------------------------------------
+#18/3/14		#0135 hrs
 
-
+Finally got the partitioning, environment settings and sources right.
+Partitioning:
+	Make only root partition and swap while installing. Make lfs partition later using cfdisk tool
+Environment setting:
+	After partitioning, login as root and create user lfs to group lfs
+		groupadd lfs
+		useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+		passwd lfs
+	Grant lfs full access to $LFS/tools by making lfs the directory owner:
+		chown -v lfs $LFS/tools
+	Edit .bash_profile and .bashrc to set up a clean new shell in user lfs. Use su - lfs before doing these operations as given in the book.
+Getting sources:
+	make a directory in the lfs directory called sources.
+	make a test file of all links and run the wget cmd as given in the book.
+----------------------------------------------------------------------------------------------------	
  	
