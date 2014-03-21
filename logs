@@ -91,4 +91,11 @@ Getting sources:
 	make a directory in the lfs directory called sources.
 	make a test file of all links and run the wget cmd as given in the book.
 ----------------------------------------------------------------------------------------------------	
+#21/3/14		#1030 hrs
+
+Compiled lfs packages upto section number 5.15
+Binutils and GCC are the main packages..rest all are lite.
+Had problems with compiling GCC..Had to install gcc c++ on host system
+Had minor issues with compilation because of typos in configuration..Remove all directories and unzip the concerned package again for smooth compilation.
+Parallel make saves lot of time..
  	
