@@ -98,4 +98,10 @@ Binutils and GCC are the main packages..rest all are lite.
 Had problems with compiling GCC..Had to install gcc c++ on host system
 Had minor issues with compilation because of typos in configuration..Remove all directories and unzip the concerned package again for smooth compilation.
 Parallel make saves lot of time..
- 	
+----------------------------------------------------------------------------------------------------
+#22/3/14		#1000 hrs
+
+Compiled all packages.
+PERL and bash need patching before they can be compiled and fedora does not have packages for patch command.So install patch first
+made a backup of $LFS/tools directory..Necessary to preserve temporary tools for building lfs some other time.
+	tar -zcvf tools-backup.tar.gz /mnt/lfs/tools	(issued this cmd as root and not usr-lfs)	
